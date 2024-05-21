@@ -1,0 +1,14 @@
+title: Andrew Colligan
+
+logo: profile.jpg
+
+description: Research fellow at Queen's University Belfast working on AI technologies for CAD and CAE systems. 
+
+show_downloads: true
+
+theme: jekyll-theme-minimal 
+
+plugins:
+  - jekyll-seo-tag
+
+email: andrew.colligan.ai@gmail.com
