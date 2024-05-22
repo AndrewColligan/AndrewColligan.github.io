@@ -3,7 +3,7 @@
   <head>
     <title>Andrew Colligan</title>
     <link rel="icon" href="imgs/icon.png">
-    <!--<link rel="stylesheet" href="css/timeline.css">-->
+    <link rel="stylesheet" href="css/timeline.css">
     <meta charset="utf-8">
 
     <meta name="description" content="I am a postdoctoral research fellow at Queen's University Belfast, currently a member of the RIED project. My research interests involve the application of AI for engineering design process, exploring the use of 3D deep learning, computer vision and reinforcement learning.">
@@ -24,64 +24,6 @@
         justify-content: center;
         height: 100%;
       }
-      .timeline {
-            position: relative;
-            padding: 2rem 0;
-        }
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 4px;
-            background: #007bff;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .timeline-item {
-            position: relative;
-            margin: 2rem 0;
-        }
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background: #007bff;
-            border-radius: 50%;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%) translateY(-50%);
-        }
-        .timeline-content {
-            background: #f8f9fa;
-            padding: 1rem;
-            border-radius: .25rem;
-            position: relative;
-            width: calc(50% - 30px);
-        }
-        .timeline-content-left {
-            left: 0;
-        }
-        .timeline-content-right {
-            left: 50%;
-            transform: translateX(30px);
-        }
-        @media (max-width: 768px) {
-            .timeline::before {
-                left: 10px;
-                transform: none;
-            }
-            .timeline-item::before {
-                left: 10px;
-                transform: translateX(-50%) translateY(-50%);
-            }
-            .timeline-content {
-                width: calc(100% - 30px);
-                left: 20px !important;
-                transform: none !important;
-            }
-        }
     </style>
 
     <!-- Bootstrap JS -->
