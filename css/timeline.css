@@ -31,15 +31,15 @@
 .timeline-content {
     background: #f8f9fa;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
     position: relative;
     width: calc(50% - 30px);
     transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
     border: 1px solid #949393; /* Grey border */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .timeline-content:hover {
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow on hover */
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow on hover */
 }
 .timeline-content-left {
     left: 0;
