@@ -1,6 +1,7 @@
 .timeline {
     position: relative;
     padding: 2rem 0;
+    overflow: hidden; /* Ensure content does not overflow */
 }
 .timeline::before {
     content: '';
@@ -55,3 +56,4 @@
         left: 20px !important;
         transform: none !important;
     }
+}
