@@ -34,6 +34,10 @@
     border-radius: .25rem;
     position: relative;
     width: calc(50% - 30px);
+    transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+.timeline-content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
 }
 .timeline-content-left {
     left: 0;
