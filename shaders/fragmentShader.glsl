@@ -35,6 +35,7 @@ float sphereSDF(vec3 p, float r) {
 }
 
 float sdf(vec3 p) {
+    float blend = 0.1;
     vec3 p1 = rotate(p, vec3(0.0, 0.0, 1.0), time/5.0);
     vec3 p2 = rotate(p, vec3(1.), -time/5.0);
     vec3 p3 = rotate(p, vec3(1., 1., 0.), -time/4.5);
@@ -42,13 +43,13 @@ float sdf(vec3 p) {
 
     float final = sphereSDF(p1 - vec3(-0.5, 0.0, 0.0), 0.35);
     float nextSphere = sphereSDF(p2 - vec3(0.55, 0.0, 0.0), 0.3);
-    final = smin(final, nextSphere, 0.1);
+    final = smin(final, nextSphere, blend);
     nextSphere = sphereSDF(p2 - vec3(-0.7, 0.0, 0.0), 0.2);
-    final = smin(final, nextSphere, 0.1);
+    final = smin(final, nextSphere, blend);
     nextSphere = sphereSDF(p3 - vec3(0.7, 0.0, 0.0), 0.15);
-    final = smin(final, nextSphere, 0.1);
+    final = smin(final, nextSphere, blend);
     nextSphere = sphereSDF(p4 - vec3(0.45, -0.45, 0.0), 0.15);
-    final = smin(final, nextSphere, 0.1);
+    final = smin(final, nextSphere, blend);
     return final;
 }
 
@@ -75,7 +76,8 @@ float rayMarch(vec3 rayOrigin, vec3 ray) {
 
 void main() {
     vec2 newUV = (vUv - vec2(0.5)) * resolution.zw + vec2(0.5);
-    vec3 cameraPos = vec3(0.0, 0.0, resolution.y / 27.0);
+    //vec3 cameraPos = vec3(0.0, 0.0, resolution.y / 27.0);
+    vec3 cameraPos = vec3(0.0, 0.0, resolution.x / 150.0);
     vec3 ray = normalize(vec3((vUv - vec2(0.5)) * resolution.zw, -1));
     vec3 color = vec3(1.0);
 
