@@ -4,5 +4,4 @@ function copyCite(elementId) {
 
      // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.textContent);
-    alert(copyText.textContent);
   }

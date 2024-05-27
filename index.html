@@ -48,11 +48,11 @@
       <!-- Left Column (Sidebar) -->
       <section id="about" class="row pt-5 pb-5 ps-3 pe-3">
         <aside class="col-xxl-3 text-center">
-          <img src="imgs/profile.jpg" class="img-thumbnail" style="width: 250px;" alt="profile.jpg"></img>
+          <img src="imgs/profile.jpg" class="img-thumbnail mb-3" style="width: 250px;" alt="profile.jpg"></img>
           <h4>Andrew Colligan</h4>
           <h5 class="text-secondary">Research Fellow</h5>
           <p><a href="https://www.qub.ac.uk/" class="text-decoration-none">Queen's University Belfast</a></p>
-          <div class="gap-2">
+          <div class="gap-2 mt-3 mb-5">
             <a href="mailto: andrewcolligan.ai@gmail.com" class="btn btn-dark mb-1">
               <i class="bi bi-envelope-fill"></i>
             </a>
@@ -69,10 +69,10 @@
         </aside>
 
         <div class="col-xxl-8">
-          <h2 class="display-6">ABOUT</h2>
-          <p>Hi! I am a postdoctoral research fellow at Queen's University Belfast, currently a member of the <b><a href="https://riedesign.org/" class="text-decoration-none">Re-Imagining Engineering Design (RIED)</a></b> team.
+          <h2 id="aboutHeader" class="display-6">ABOUT</h2>
+          <p style="text-align: justify; text-justify: inter-word;">Hi! I am a postdoctoral research fellow at Queen's University Belfast, currently a member of the <b><a href="https://riedesign.org/" class="text-decoration-none">Re-Imagining Engineering Design (RIED)</a></b> team.
             The fundamental goal of RIED is to rapidly generate new engineering ideas and concepts using AI and bioinspired methodologies, where both the product and its associated manufacturing system are designed concurrently.</p>
-          <p>My research interests involve the application of AI for engineering design process, exploring the use of 3D deep learning, computer vision and reinforcement learning.
+          <p style="text-align: justify; text-justify: inter-word;">My research interests involve the application of AI for engineering design process, exploring the use of 3D deep learning, computer vision and reinforcement learning.
               I obtained my PhD degree for work around learning from B-Rep CAD models using graph convolutional neural networks. The majority of my PhD work resulted in the
               <b><a href="https://www.sciencedirect.com/science/article/pii/S0010448522000240" class="text-decoration-none">Hierarchical CADNet</a></b> paper and the <b><a href="https://pure.qub.ac.uk/en/datasets/mfcad-dataset-dataset-for-paper-hierarchical-cadnet-learning-from" class="text-decoration-none">MFCAD++</a></b> dataset.</p>
 
@@ -91,32 +91,31 @@
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">A Quality Diversity Study in EvoDevo Processes for Engineering Design</h5>
-                  <p class="card-text"><small class="text-muted">Authors: Edgar Buchanan, Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew Tyrrell</small></p>
+                  <p class="card-text"><small class="text-muted">Authors: Edgar Buchanan, Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew M. Tyrrell</small></p>
                   <p class="card-text"><small class="text-muted">Conference: IEEE World Congress on Computational Intelligence, 2024</small></p>
                   <p class="card-text">Study of the effects of quality and diversity (QD) algorithms in Evolutionary Development (EvoDevo) processes for engineering design.</p>
                   <div class="d-grid gap-2 d-lg-block">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#buchanan2024QdModal">
                       Cite
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="buchanan2024QdModal" tabindex="-1" aria-labelledby="buchanan2024QdModalLabel" aria-hidden="true">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Cite</h1>
+                            <h1 class="modal-title fs-5" id="buchanan2024QdModalLabel">Cite</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <pre id="buchanan2024QdCite" class="citation">
-                              <p>@inproceedings{buchanan2024qd</p>
-                              <p> title={A Quality Diversity Study in EvoDevo Processes for Engineering Design},</p>
-                              <p> author={Edgar Buchanan, Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, Andrew R. Colligan, Mark Price & Andrew Tyrrell},</p>
-                              <p> booktitle={IEEE World Congress on Computational Intelligence, 2024},</p>
-                              <p> year={2024},</p>
-                              <p> doi={https://doi.org/10.15124/cda83da3-f849-4ce4-8135-a137cd52ade2}</p>
-                              <p>}</p>
+                              <p style="font-size: 16px;">@inproceedings{buchanan2024qd</p>
+                              <p style="font-size: 16px;"> title={A Quality Diversity Study in EvoDevo Processes for Engineering Design},</p>
+                              <p style="font-size: 16px;"> author={Edgar Buchanan, Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, Andrew R. Colligan, Mark Price & Andrew M. Tyrrell},</p>
+                              <p style="font-size: 16px;"> booktitle={IEEE World Congress on Computational Intelligence},</p>
+                              <p style="font-size: 16px;"> year={2024},</p>
+                              <p style="font-size: 16px;"> doi={https://doi.org/10.15124/cda83da3-f849-4ce4-8135-a137cd52ade2}</p>
+                              <p style="font-size: 16px;">}</p>
                             </pre>
                           </div>
                           <div class="modal-footer">
@@ -142,9 +141,39 @@
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">Evolving Novel Gene Regulatory Networks for Structural Engineering Designs</h5>
-                  <p class="card-text"><small class="text-muted">Authors: Rahul Dubey, Simon J. Hickinbotham, <b>Andrew R. Colligan</b>, Imelda Friel, Edgar Buchanan, Mark Price & Andrew Tyrrell</small></p>
+                  <p class="card-text"><small class="text-muted">Authors: Rahul Dubey, Simon J. Hickinbotham, <b>Andrew R. Colligan</b>, Imelda Friel, Edgar Buchanan, Mark Price & Andrew M. Tyrrell</small></p>
                   <p class="card-text"><small class="text-muted">Journal: Artificial Life, 2024</small></p>
                   <p class="card-text">Exploration of different gene regulatory networks (GRNs) for the optimization of structural engineering designs in an Evolutionary-Development algorithm.</p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#dubey2024GRNModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="dubey2024GRNModal" tabindex="-1" aria-labelledby="dubey2024GRNModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="dubey2024GRNModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="dubey2024GRNCite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{dubey2024grn</p>
+                              <p style="font-size: 16px;"> title={Evolving Novel Gene Regulatory Networks for Structural Engineering Designs},</p>
+                              <p style="font-size: 16px;"> author={Rahul Dubey, Simon J. Hickinbotham, Andrew R. Colligan, Imelda Friel, Edgar Buchanan, Mark Price & Andrew M. Tyrrell},</p>
+                              <p style="font-size: 16px;"> booktitle={Artificial Life},</p>
+                              <p style="font-size: 16px;"> year={2024}</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('dubey2024GRNCite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 d-flex align-items-center">
@@ -158,10 +187,39 @@
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">Investigation of Starting Conditions in Generative Processes for the Design of Engineering Structures</h5>
-                  <p class="card-text"><small class="text-muted">Authors: Edgar Buchanan, Rahul Dubey, Simon J. Hickinbotham, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew Tyrrell</small></p>
+                  <p class="card-text"><small class="text-muted">Authors: Edgar Buchanan, Rahul Dubey, Simon J. Hickinbotham, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew M. Tyrrell</small></p>
                   <p class="card-text"><small class="text-muted">Conference: Proceedings of the IEEE Symposium Series on Computational Intelligence, SSCI, 2023</small></p>
                   <p class="card-text">A study into how the initial structure of an EvoDevo process influences the ability to learn development rules.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#buchanan2023ISModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="buchanan2023ISModal" tabindex="-1" aria-labelledby="buchanan2023ISModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="buchanan2023ISModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="buchanan2023ISCite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{buchanan2023is</p>
+                              <p style="font-size: 16px;"> title={Investigation of Starting Conditions in Generative Processes for the Design of Engineering Structures},</p>
+                              <p style="font-size: 16px;"> author={Edgar Buchanan, Rahul Dubey, Simon J. Hickinbotham, Imelda Friel, Andrew R. Colligan, Mark Price & Andrew M. Tyrrell},</p>
+                              <p style="font-size: 16px;"> booktitle={2023 IEEE Symposium Series on Computational Intelligence (SSCI)},</p>
+                              <p style="font-size: 16px;"> year={2023},</p>
+                              <p style="font-size: 16px;"> doi={http://dx.doi.org/10.1109/SSCI52147.2023.10371945}</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('buchanan2023ISCite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://pure.york.ac.uk/portal/files/94141439/ebb_ices_2023.pdf" class="btn btn-outline-info">Paper</a>
                   </div>
                 </div>
@@ -177,10 +235,39 @@
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">Theory of Evolutionary Systems Engineering</h5>
-                  <p class="card-text"><small class="text-muted">Authors: Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew Tyrrell</small></p>
+                  <p class="card-text"><small class="text-muted">Authors: Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew M. Tyrrell</small></p>
                   <p class="card-text"><small class="text-muted">Conference: Proceedings of the IEEE Symposium Series on Computational Intelligence, SSCI, 2023</small></p>
                   <p class="card-text">A theory for the use of the von Neumann's Universal Constructor Architecture (UCA) as common language between multidisciplinary applications for evolving engineering systems.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#hickinbotham2023ESEModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hickinbotham2023ESEModal" tabindex="-1" aria-labelledby="hickinbotham2023ESEModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="hickinbotham2023ESEModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="hickinbotham2023ESECite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{hickinbotham2023ese</p>
+                              <p style="font-size: 16px;"> title={Theory of Evolutionary Systems Engineering},</p>
+                              <p style="font-size: 16px;"> author={Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, Andrew R. Colligan, Mark Price & Andrew M. Tyrrell},</p>
+                              <p style="font-size: 16px;"> booktitle={2023 IEEE Symposium Series on Computational Intelligence (SSCI)},</p>
+                              <p style="font-size: 16px;"> year={2023},</p>
+                              <p style="font-size: 16px;"> doi={http://dx.doi.org/10.1109/SSCI52147.2023.10371943}</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('hickinbotham2023ESECite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://riedesign.org/wp-content/uploads/2023/12/Theory-of-Evolutionary-Systems-Paper-1.pdf" class="btn btn-outline-info">Paper</a>
                   </div>
                 </div>
@@ -200,6 +287,34 @@
                   <p class="card-text"><small class="text-muted">Conference: 3rd International Conference on Mechanical, Aerospace and Automotive Engineering (CMAAE 2023), 2023</small></p>
                   <p class="card-text">A bio-inspired evolutionary-development approach for modelling and optimizing buffer allocations in a production line.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#zhao2023BAModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="zhao2023BAModal" tabindex="-1" aria-labelledby="zhao2023BAModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="zhao2023BAModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="zhao2023BACite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{zhao2023ba</p>
+                              <p style="font-size: 16px;"> title={A Bio-Inspired Evolution-Development Method for Modelling and Optimisation of Buffer Allocation in Unreliable Serial Production Line},</p>
+                              <p style="font-size: 16px;"> author={Zhiwei Zhao, Paul Goodall, Andrew West, Andrew R. Colligan, Imelda Friel, Simon J. Hickinbotham, Mark Price & Yan Jin},</p>
+                              <p style="font-size: 16px;"> booktitle={3rd International Conference on Mechanical, Aerospace and Automotive Engineering (CMAAE 2023)},</p>
+                              <p style="font-size: 16px;"> year={2023}</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('zhao2023BACite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://riedesign.org/wp-content/uploads/2024/01/A-bio-inspired-evolution-development-method-for-modelling-and-optimisation-of.pdf" class="btn btn-outline-info">Paper</a>
                   </div>
                 </div>
@@ -215,10 +330,39 @@
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">Evolving Design Modifiers</h5>
-                  <p class="card-text"><small class="text-muted">Authors: Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew Tyrrell</small></p>
+                  <p class="card-text"><small class="text-muted">Authors: Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, <b>Andrew R. Colligan</b>, Mark Price & Andrew M. Tyrrell</small></p>
                   <p class="card-text"><small class="text-muted">Conference: Proceedings of the IEEE Symposium Series on Computational Intelligence, SSCI, 2022</small></p>
                   <p class="card-text">Applying the biological concept of Evolutionary Developmental (EvoDevo) to evolve growth rules via neural networks to parameter truss structures for multi-objective problems.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#hickinbotham2022EDMModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hickinbotham2022EDMModal" tabindex="-1" aria-labelledby="hickinbotham2022EDMModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="hickinbotham2022EDMModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="hickinbotham2022EDMCite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{hickinbotham2022edm</p>
+                              <p style="font-size: 16px;"> title={Evolving Design Modifiers},</p>
+                              <p style="font-size: 16px;"> author={Simon J. Hickinbotham, Rahul Dubey, Imelda Friel, Andrew R. Colligan, Mark Price & Andrew M. Tyrrell},</p>
+                              <p style="font-size: 16px;"> booktitle={2022 IEEE Symposium Series on Computational Intelligence (SSCI)},</p>
+                              <p style="font-size: 16px;"> year={2022},</p>
+                              <p style="font-size: 16px;"> doi={10.1109/SSCI51031.2022.10022087}</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('hickinbotham2022EDMCite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://ieeexplore.ieee.org/document/10022087" class="btn btn-outline-info">Paper</a>
                   </div>
                 </div>
@@ -238,6 +382,35 @@
                   <p class="card-text"><small class="text-muted">Journal: Computer-Aided Design, 2022</small></p>
                   <p class="card-text">Proposed a graph convolutional neural network architecture for learning from B-Rep CAD models and a complex CAD model dataset called <b>MFCAD++</b> with labeled machining features.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#colligan2022HiercadnetModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="colligan2022HiercadnetModal" tabindex="-1" aria-labelledby="colligan2022HiercadnetModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="colligan2022HiercadnetModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="colligan2022HiercadnetCite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{colligan2022hiercadnet</p>
+                              <p style="font-size: 16px;"> title={Hierarchical CADNet: Learning from B-Reps for Machining Feature Recognition},</p>
+                              <p style="font-size: 16px;"> author={Andrew R. Colligan, Trevor T. Robinson, Declan C. Nolan, Yang Hua & Weijuan Cao},</p>
+                              <p style="font-size: 16px;"> booktitle={Computer-Aided Design},</p>
+                              <p style="font-size: 16px;"> year={2022},</p>
+                              <p style="font-size: 16px;"> doi={https://doi.org/10.1016/j.cad.2022.103226},</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('colligan2022HiercadnetCite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://www.sciencedirect.com/science/article/pii/S0010448522000240" class="btn btn-outline-info">Paper</a>
                     <a href="https://pure.qub.ac.uk/en/datasets/mfcad-dataset-dataset-for-paper-hierarchical-cadnet-learning-from" class="btn btn-outline-info">Dataset</a>
                     <a href="https://gitlab.com/qub_femg/machine-learning/hierarchical-cadnet" class="btn btn-outline-info">ML Code</a>
@@ -261,6 +434,35 @@
                   <p class="card-text"><small class="text-muted">Journal: Computer-Aided Design and Applications, 2021</small></p>
                   <p class="card-text">A method of generating labelled point clouds from B-Rep CAD models suitable for machine learning applications.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#colligan2021PCModal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="colligan2021PCModal" tabindex="-1" aria-labelledby="colligan2021PCModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="colligan2021PCModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="colligan2021PCCite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{colligan2021pc</p>
+                              <p style="font-size: 16px;"> title={Point Cloud Dataset Creation for Machine Learning on CAD Models},</p>
+                              <p style="font-size: 16px;"> author={Andrew R. Colligan, Trevor T. Robinson, Declan C. Nolan & Yang Hua},</p>
+                              <p style="font-size: 16px;"> booktitle={Computer-Aided Design and Applications},</p>
+                              <p style="font-size: 16px;"> year={2021},</p>
+                              <p style="font-size: 16px;"> doi={https://doi.org/10.14733/cadaps.2021.760-771},</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('colligan2021PCCite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://cad-journal.net/files/vol_18/CAD_18(4)_2021_760-771.pdf" class="btn btn-outline-info">Paper</a>
                     <a href="https://gitlab.com/qub_femg/machine-learning/point-cloud-creation-from-cad-models" class="btn btn-outline-info">Code</a>
                   </div>
@@ -282,6 +484,35 @@
                   <p class="card-text"><small class="text-muted">Conference: ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference, 2020</small></p>
                   <p class="card-text">First approach to propose the use of graph neural networks to learn from B-Rep CAD models. Introduced the benchmark <b>MFCAD </b>dataset for machining feature recognition.</p>
                   <div class="d-grid gap-2 d-lg-block">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#cao2020Modal">
+                      Cite
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cao2020Modal" tabindex="-1" aria-labelledby="cao2020ModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="cao2020ModalLabel">Cite</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <pre id="cao2020Cite" class="citation">
+                              <p style="font-size: 16px;">@inproceedings{cao2020</p>
+                              <p style="font-size: 16px;"> title={Graph Representation of 3D CAD Models for Machining Feature Recognition with Deep Learning},</p>
+                              <p style="font-size: 16px;"> author={Weijuan Cao, Trevor T. Robinson, Yang Hua, Flavien Boussuge, Andrew R. Colligan & Wanbin Pan},</p>
+                              <p style="font-size: 16px;"> booktitle={ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},</p>
+                              <p style="font-size: 16px;"> year={2020},</p>
+                              <p style="font-size: 16px;"> doi={https://doi.org/10.1115/DETC2020-22355},</p>
+                              <p style="font-size: 16px;">}</p>
+                            </pre>
+                          </div>
+                          <div class="modal-footer">
+                            <button onclick="copyCite('cao2020Cite')" type="button" class="btn btn-secondary"><i class="bi bi-copy"></i>  Copy</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2020/84003/V11AT11A003/1090197" class="btn btn-outline-info">Paper</a>
                     <a href="https://github.com/hducg/MFCAD" class="btn btn-outline-info">Dataset</a>
                     <a href="https://gitlab.com/qub_femg/machine-learning/cadnet" class="btn btn-outline-info">Code</a>
@@ -305,11 +536,11 @@
               <div class="timeline-content timeline-content-left">
                 <div class="row">
                   <div class="col-2">
-                    <img src="imgs/qub_logo.png" class="w-75 text-right mt-1" alt="QUB logo"></img>
+                    <img src="imgs/qub_logo.png" class="w-75 text-center ms-2 mt-1" alt="QUB logo"></img>
                   </div>
                   <div class="col-10">
-                    <h4 class="text-muted"><b>Research Fellow</b></h4>
-                    <h5 class="display-6 fs-3">Queen's University Belfast</h5>
+                    <h4 class="text-muted">Research Fellow</h4>
+                    <h5 class="display-6 fs-4">Queen's University Belfast</h5>
                     <h5 class="text-muted">Jan 2022 - Present</h5>
                     <ul>
                       <li>A member of the Re-Imagining Engineering Design (RIED) project.</li>
@@ -324,11 +555,11 @@
               <div class="timeline-content timeline-content-right">
                 <div class="row">
                   <div class="col-2">
-                    <img src="imgs/qub_logo.png" class="w-75 text-right mt-1" alt="QUB logo"></img>
+                    <img src="imgs/qub_logo.png" class="w-75 text-center ms-2 mt-1" alt="QUB logo"></img>
                   </div>
                   <div class="col-10">
                     <h4 class="text-muted">PhD</h4>
-                    <h6 class="display-6 fs-3">Queen's University Belfast</h6>
+                    <h6 class="display-6 fs-4">Queen's University Belfast</h6>
                     <h5 class="text-muted">Oct 2018 - July 2022</h5>
                     <ul>
                       <li>Worked on deep learning algorithm for learning from B-Rep CAD models.</li>
@@ -342,11 +573,11 @@
               <div class="timeline-content timeline-content-left">
                 <div class="row">
                   <div class="col-2">
-                    <img src="imgs/ryobi_logo.svg" class="w-75 text-right mt-1" alt="QUB logo"></img>
+                    <img src="imgs/ryobi_logo.svg" class="w-75 text-center ms-2 mt-1" alt="QUB logo"></img>
                   </div>
                   <div class="col-10">
                     <h4 class="text-muted">Lean Engineer Intern</h4>
-                    <h6 class="display-6 fs-3">Ryobi Aluminium Casting (UK) Ltd.</h6>
+                    <h6 class="display-6 fs-4">Ryobi Aluminium Casting (UK) Ltd.</h6>
                     <h5 class="text-muted">July 2016 - July 2017</h5>
                     <ul>
                       <li>Designed a maintenance outstanding work management system and tool change log application.</li>
@@ -359,11 +590,11 @@
               <div class="timeline-content timeline-content-right">
                 <div class="row">
                   <div class="col-2">
-                    <img src="imgs/qub_logo.png" class="w-75 text-right mt-1" alt="QUB logo"></img>
+                    <img src="imgs/qub_logo.png" class="w-75 text-center ms-2 mt-1" alt="QUB logo"></img>
                   </div>
                   <div class="col-10">
                     <h4 class="text-muted">Mechanical Engineering MEng</h4>
-                    <h6 class="display-6 fs-3">Queen's University Belfast</h6>
+                    <h6 class="display-6 fs-4">Queen's University Belfast</h6>
                     <h5 class="text-muted">Oct 2013 - Jun 2018</h5>
                     <ul>
                       <li>Graduated with a 1st class honours.</li>
@@ -382,7 +613,7 @@
           <h2 class="display-6">CONTACT</h2>
         </div>
         <div class="col-xxl-8">
-          <p>Email: andrewcolligan.ai@gmail.com</p>
+          <p><i class="bi bi-envelope-fill me-3"></i> andrewcolligan.ai@gmail.com</p>
         </div>
       </section>
     </div>

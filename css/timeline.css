@@ -40,7 +40,7 @@
     background: #ffffff;
     border-color: #007bff;
     border-style: solid;
-    border-width: 5px;
+    border-width: 4px;
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -66,17 +66,17 @@
     left: 50%;
     transform: translateX(30px);
 }
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     .timeline::before {
         left: 10px;
         transform: none;
     }
     .timeline-node-current::before {
-        left: 10px;
+        left: 0px;
         transform: translateX(-50%) translateY(-50%);
     }
     .timeline-node::before {
-        left: 10px;
+        left: 0px;
         transform: translateX(-50%) translateY(-50%);
     }
     .timeline-content {

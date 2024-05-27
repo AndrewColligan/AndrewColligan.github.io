@@ -77,7 +77,7 @@ float rayMarch(vec3 rayOrigin, vec3 ray) {
 void main() {
     vec2 newUV = (vUv - vec2(0.5)) * resolution.zw + vec2(0.5);
     //vec3 cameraPos = vec3(0.0, 0.0, resolution.y / 27.0);
-    vec3 cameraPos = vec3(0.0, 0.0, resolution.x / 150.0);
+    vec3 cameraPos = vec3(0.0, 0.0, resolution.x / 145.0);
     vec3 ray = normalize(vec3((vUv - vec2(0.5)) * resolution.zw, -1));
     vec3 color = vec3(1.0);
 
