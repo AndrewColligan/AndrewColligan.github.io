@@ -49,6 +49,9 @@
               <a class="nav-link" href="#expericence">Experience</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -58,7 +61,7 @@
 
     <div class="container-fluid" data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
       <!-- Left Column (Sidebar) -->
-      <section id="about" class="row pt-5 pb-5 ps-3 pe-3">
+      <section id="about" class="row pt-5 pb-5 ps-3 pe-2">
         <aside class="col-xl-3 text-center">
           <img src="imgs/profile.jpg" class="img-thumbnail mb-3" style="width: 250px;" alt="profile.jpg"></img>
           <h4>Andrew Colligan</h4>
@@ -92,7 +95,7 @@
         </div>
       </section>
 
-      <section id="publications" class="row pt-5 pb-5 ps-3 pe-3 bg-light">
+      <section id="publications" class="row pt-5 pb-5 ps-3 pe-2 bg-light">
         <div class="col-xl-3 text-center">
           <h2 class="display-6">PUBLICATIONS</h2>
         </div>
@@ -538,7 +541,7 @@
           </article>
         </div>
       </section>
-      <section id="expericence" class="row pt-5 pb-5 ps-3 pe-3">
+      <section id="expericence" class="row pt-5 pb-5 ps-3 pe-2">
         <div class="col-xl-3 text-center">
           <h2 class="display-6">EXPERICENCE</h2>
         </div>
@@ -620,7 +623,68 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="row pt-5 pb-5 ps-3 pe-3 bg-light">
+      <section id="projects" class="row pt-5 pb-5 ps-3 pe-2 bg-light">
+        <div class="col-xl-3 text-center">
+          <h2 class="display-6">PROJECTS</h2>
+        </div>
+        <div class="col-xl-8">
+          <div class="row no-gutters p-3 mb-3">
+            <p>A list of different code projects in which I have worked on or have been involved in.</p>
+          </div>
+          <article class="card mb-3">
+            <div class="row no-gutters p-3">
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">Signed Distance Function (SDF) Experiments</h5>
+                  <p class="card-text">A website of different experiments using signed distance functions (SDFs). The website uses <code>three.js</code> and <code>Open GL Shader Language (GLSL)</code> for rendering SDF models using ray marching.</p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <a href="https://andrewcolligan.github.io/SDF/" class="btn btn-outline-info">Website</a>
+                    <a href="https://github.com/AndrewColligan/SDF" class="btn btn-outline-info">Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center">
+                <img src="imgs/sdf_website.JPG" class="w-100 text-center mt-3 mb-3" alt="sdf-website"></img>
+              </div>
+            </div>
+          </article>
+          <article class="card mb-3">
+            <div class="row no-gutters p-3">
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">Relational Learning for CAD Models</h5>
+                  <p class="card-text">Code from a MEng Master's project by David Philpott in which I was a supervisor. The repo contains open-source code for using relational learning to cluster together similar entities in CAD models.</p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <a href="https://gitlab.com/qub_femg/machine-learning/masters-relational-learning" class="btn btn-outline-info">Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-3 d-flex align-items-center text-center">
+                <img src="imgs/masters_project_gear_teeth.JPG" class="w-75 text-center mt-3 mb-3" alt="relational-learning"></img>
+              </div>
+            </div>
+          </article>
+          <article class="card mb-3">
+            <div class="row no-gutters p-3">
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">FeatureNet: TensorFlow 2 Implementation</h5>
+                  <p class="card-text">A <code>TensorFlow 2</code> implementation of the <a href="https://doi.org/10.1016/j.cad.2018.03.006" class="text-decoration-none">FeatureNet</a> paper. This approach can classify and segment machining features in CAD models by converting the B-Rep to voxel models and using 3D convolutional neural networks.</p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <a href="https://gitlab.com/qub_femg/machine-learning/featurenet-tensorflow-2" class="btn btn-outline-info">Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-3 d-flex align-items-center text-center">
+                  <img src="imgs/voxel_model.jpg" class="text-center w-75 mt-3 mb-3" alt="voxel-model"></img>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contact" class="row pt-5 pb-5 ps-3 pe-2">
         <div class="col-xl-3 text-center">
           <h2 class="display-6">CONTACT</h2>
         </div>
@@ -638,12 +702,6 @@
         }
       }
     </script>
-    <!--
-    <script type="module">
-      import { main } from './js/sdf.js';
-      main();
-    </script>
-    -->
     <script type="module" src="./js/sdf.js"></script>
     <script src="./js/copyCite.js"></script>
   </body>
