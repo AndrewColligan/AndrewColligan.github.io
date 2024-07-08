@@ -8,12 +8,12 @@ animate();
 
 function init() {
     // Initialize the renderer
-    renderer = new THREE.WebGLRenderer();
+    renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio( window.devicePixelRatio );
     const container = document.getElementById('threejs-container');
 
     width = container.clientWidth;
     height = container.clientHeight;
-
     renderer.setSize(width, height);
     container.appendChild(renderer.domElement);
 
