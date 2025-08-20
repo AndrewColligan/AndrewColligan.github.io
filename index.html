@@ -66,8 +66,7 @@
         <aside class="col-xl-3 text-center">
           <img src="imgs/profile.jpg" class="img-thumbnail mb-3" style="width: 250px;" alt="profile.jpg"></img>
           <h4>Andrew Colligan</h4>
-          <h5 class="text-secondary">Research Fellow</h5>
-          <p><a href="https://www.qub.ac.uk/" class="text-decoration-none">Queen's University Belfast</a></p>
+          <h5 class="text-secondary">ML + Mech Engineer</h5>
           <div class="gap-2 mt-3 mb-5">
             <a href="mailto: andrewcolligan.ai@gmail.com" class="btn btn-dark mb-1">
               <i class="bi bi-envelope-fill"></i>
@@ -642,6 +641,7 @@
           </div>
         </div>
       </section>
+      <-- Projects -->
       <section id="projects" class="row pt-5 pb-5 ps-3 pe-2 bg-light">
         <div class="col-xl-3 text-center">
           <h2 class="display-6">PROJECTS</h2>
@@ -650,6 +650,23 @@
           <div class="row no-gutters p-3 mb-3">
             <p>A list of different code projects in which I have worked on or have been involved in.</p>
           </div>
+          <article class="card mb-3">
+            <div class="row no-gutters p-3">
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">Neuroevolution Generative Design</h5>
+                  <p class="card-text">A full prototype application of a generative design system using neuroevolution. This system allowed users to optimize 2D and 3D truss structures for multi-objective optimization problems. Neural networks were evolved that could then be re-used at inference for other similar design problems.
+                    I built a 3D modelling environment using <code>Flask</code>, <code>React</code> and <code>React Three Fiber</code> allowing users to generate truss structures and boundary conditions. Once training, users could select design soltuions from a Pareto chart and view the 3D model of the solution using signed distance functions (SDF).</p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <a href="https://gitlab.com/riedproject/ried-gui" class="btn btn-outline-info">Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <img src="imgs/gnnevodevo_gui.gif" class="w-100 text-center mt-3 mb-3" style="max-width: 350px;" alt="GNN-EvoDevo-GUI"></img>
+              </div>
+            </div>
+          </article>
           <article class="card mb-3">
             <div class="row no-gutters p-3">
               <div class="col-lg-8">
