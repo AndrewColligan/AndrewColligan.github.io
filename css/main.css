@@ -22,6 +22,16 @@ p {
     font-size: 20px;
 }
 
+/* Color of the inactive indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: gray;
+}
+
+/* Color of the active indicator */
+.carousel-indicators .active {
+  background-color: #333; /* A darker gray for the active slide */
+}
+
 #threejs-container {
     width: 100%;
     height: 280px;
