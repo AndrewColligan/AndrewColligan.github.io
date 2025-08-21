@@ -755,6 +755,25 @@
             <div class="row no-gutters p-3">
               <div class="col-lg-8">
                 <div class="card-body">
+                  <h5 class="card-title">Stiffened Plate Generative Design</h5>
+                  <p class="card-text">This project is a generative design methodology for stiffened plates. Using neuroevolution, agents are evolved to respond to simulation states with the goal of minimizing the total volume and displacement of the initial design.
+                    The agents' action spaces control the width of stiffeners reinforcing the plate. The state space includes the displacement and volume of the stiffeners and the displacement of the plate sections.
+                    The state features are found using the Finite Element Analysis (FEA) solver <code>Calculix</code>, where the stiffeners are represented as beam elements and the plate sections as shell elements.
+                  </p>
+                  <div class="d-grid gap-2 d-lg-block">
+                    <a href="https://gitlab.com/riedproject/stiffened-plate" class="btn btn-outline-info">Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <img src="imgs/plate-evodevo.gif" class="w-100 text-center mt-3 mb-3" style="max-width: 350px;" alt="Stiffened plate gif"></img>
+              </div>
+            </div>
+          </article>
+          <article class="card mb-3">
+            <div class="row no-gutters p-3">
+              <div class="col-lg-8">
+                <div class="card-body">
                   <h5 class="card-title">Signed Distance Function (SDF) Experiments</h5>
                   <p class="card-text">A website of different experiments using signed distance functions (SDFs). The website uses <code>three.js</code> and <code>Open GL Shader Language (GLSL)</code> for rendering SDF models using ray marching.</p>
                   <div class="d-grid gap-2 d-lg-block">
